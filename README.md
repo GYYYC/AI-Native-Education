@@ -259,5 +259,3 @@ git push -u origin main
 - `node:sqlite` 在当前 Node 版本中仍可能出现实验性提示，部署时请固定 Node 22+ 并充分测试。
 - `xlsx` 依赖存在 npm audit 告警且官方自动修复不可用。如果系统开放给外部用户上传 Excel，建议增加文件大小、字段、MIME、行数和内容校验，或评估替换导入库。
 - 完整清除 Next.js 审计告警需要升级到 Next 15/16 大版本，属于迁移工作，不建议在未测试的情况下直接 `npm audit fix --force`。
-#   A I - N a t i v e - E d u c a t i o n  
- 
