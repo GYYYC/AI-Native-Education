@@ -1,0 +1,23 @@
+{
+  "name": "education-management-system",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "init-db": "node src/lib/init-db.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "next": "14.2.35",
+    "react": "^18",
+    "react-dom": "^18",
+    "sql.js": "^1.14.1",
+    "xlsx": "^0.18.5"
+  }
+}

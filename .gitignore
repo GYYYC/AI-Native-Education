@@ -1,0 +1,45 @@
+# dependencies
+node_modules/
+
+# Next.js
+.next/
+.next-dev/
+out/
+
+# production and build artifacts
+dist/
+build/
+
+# environment files
+.env
+.env*.local
+
+# local databases and generated data
+data/*
+!data/.gitkeep
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+
+# local documents and extracted notes
+*.docx
+*.pdf
+temp_docx_text.txt
+information/
+
+# Codex/local agent workspace files
+.agents/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
